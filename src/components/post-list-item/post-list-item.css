@@ -1,5 +1,6 @@
 .app-list-item {
-  font-size: 1.25rem;
+	font-size: 1.25rem;
+	cursor: pointer;
 }
 
 .app-list-item button {
@@ -51,4 +52,8 @@
 
 .app-list-item.important .btn-star {
     color: #aeaeae;
+}
+
+.important {
+	color: #FFD700;
 }
